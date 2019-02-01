@@ -142,12 +142,12 @@ def problem1(n):
 
     f0 = 0
     f1 = 1
-    fnumber = 0
+    f_number = 0
 
-    while fnumber < n:
-        fnumber = f0 + f1
+    while f_number < n:
+        f_number = f0 + f1
         f0 = f1
-        f1 = fnumber
+        f1 = f_number
 
     return f0
 
